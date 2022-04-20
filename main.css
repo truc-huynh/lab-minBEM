@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+body {
+    font-family: "Raleway";
+    background-color: #f1f1f1;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: #173451;
+    padding: 20px 130px;
+    overflow: auto;
+}
+.title {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    float: right;
+}
+.title__main{
+    color: #fcbf16;
+    font-style: italic;
+}
+.img {
+    display: inline-block;
+}
+.img--logo {
+    width: 5%;
+}
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles {
+    padding-bottom: 60px;
+}
+.articles__big {
+    text-align: center;
+    width: 100%;
+    padding: 30px 15px 90px;
+}
+.articles__img--big {
+    width: 100%;
+}
+
+.articles__small {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.articles__img--small {
+    width: 25%;
+}
+.articles__content {
+    padding: 0 25px 15px;
+}
+.articles__small--reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+    justify-content: right;
+}
+.btn {
+    color: #f1f1f1;
+    background-color: #fcbf16;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right,  #fcbf16, #992154);
+}
+.btn__small {
+    max-width: 120px;
+    padding: 10px 0;
+}
+.btn__big {
+    padding: 10px 20px;
+    max-width: 190px;
+    margin: 0 auto;
+}
+.btn__small--right {
+    display: inline-block;
+}
+footer {
+    background-color: #173451;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
